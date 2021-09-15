@@ -1,0 +1,87 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-size: 62.5%;
+      font-family: 'Roboto', sans-serif;
+}
+.hero::before{
+      content: "";
+      width: 100%;
+      height: 100vh;
+      background: url("img/jeshoots-com-pUAM5hPaCRI-unsplash.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: .6;
+      background-position: center;
+}
+.header{
+      position: relative;
+      width: 100%;
+      height: 12vh;
+      color: black;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 3rem;
+}
+.header img{
+      width: 6rem;
+      height: 6rem;
+      border-radius: 50%;
+}
+.header nav ul{
+      display: flex;
+      justify-content: space-around;
+}
+.header ul li{
+      font-size: 3rem;
+      list-style: none;
+      margin: 1rem;
+}
+.header ul li a{
+      text-decoration: none;
+      color: #1212d6;
+      padding: 1rem;
+}
+.header ul li a:hover{
+      color: palevioletred;
+      text-decoration: underline;
+}
+.main_hero_content{
+      position: relative;
+      width: fit-content;
+      font-size: 3rem;
+      margin: auto;
+      top: 30vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      min-height: 20rem;
+      align-items: center;
+}
+.main_hero_content h1{
+      font-size: 5rem;
+      color: #cc2fb8;
+}
+.main_hero_content p{
+      font-size: 1rem;
+}
+.main_hero_content button{
+      width: 10rem;
+      padding: 1rem;
+      font-size: 1.3rem;
+      font-weight: bolder;
+      background-color: rgba(34, 190, 34,0.9);
+      color: white;
+      border: none;
+      border-radius: 1rem;
+}
+.main_hero_content button:hover{
+      color: purple;
+}
